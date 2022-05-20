@@ -47,10 +47,19 @@ a, a:hover, a:focus, a:active {
 }
 
 .icon {
-  margin: 2px;
+  padding: 2px;
 
   max-width: 30px;
   max-height: 30px;
+
+  transition: transform .2s;
+
+  display: block;
+
+}
+
+.icon:hover {
+  transform: scale(1.3);
 }
 
 .menu-box {
@@ -79,9 +88,14 @@ a, a:hover, a:focus, a:active {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: transform .2s;
+
 }
 
 .menu-button:hover {
+  transform: scale(1.2);
+
   background-color: rgb(255, 190, 248);
   border: 2px solid rgb(232, 166, 225);
 }
@@ -92,7 +106,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .home-header {
-  padding-bottom: max(8px,2.5vw);
+  padding-bottom: max(8px,1vw);
 
   width: 100%;
   max-height: 550px;
@@ -158,10 +172,12 @@ a, a:hover, a:focus, a:active {
 
 .first{
   height: 42%;
+  margin-left: -20%;
 }
 
 .last{
   height: 58%;
+  margin-right: -20%;
 }
 
 .title{
@@ -177,10 +193,12 @@ a, a:hover, a:focus, a:active {
 
 .title-text{
   font-family: 'Roboto Flex', sans-serif;
-  font-size: 20px;
+  font-size: max(19px,2vw);
+  color: rgb(92, 92, 92);
 }
 
 .bio {
+
   height: 200px;
   width: 100%;
 
@@ -189,7 +207,7 @@ a, a:hover, a:focus, a:active {
 
 }
 .bio-frame {
-  width: 70%;
+  width: max(75%, 300px);
   font-family: 'Roboto Flex', sans-serif;
   font-size: 16px;
   text-align: justify;
