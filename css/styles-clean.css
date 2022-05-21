@@ -225,7 +225,7 @@ a, a:hover, a:focus, a:active {
 
 .title-text{
   font-family: 'Roboto Flex', sans-serif;
-  font-size: max(19px,2vw);
+  font-size: min(max(19px,2vw), 150%);
   color: rgb(92, 92, 92);
 }
 
