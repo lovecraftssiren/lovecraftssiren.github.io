@@ -9,12 +9,15 @@ body {
 
   width: auto;
 
+
   overflow-x: hidden;
   overflow-y: scroll;
 
 
   display: flex;
   flex-wrap: nowrap;
+
+
 }
 
 a, a:hover, a:focus, a:active {
@@ -22,10 +25,17 @@ a, a:hover, a:focus, a:active {
     color: inherit;
 }
 
+.body-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .body-content {
   padding: 10px 20px;
-  background-color: rgb(236, 236, 236);
   width: 100%;
+  max-width: 1200px;
+
 
   display: flex;
   flex-direction: column;
