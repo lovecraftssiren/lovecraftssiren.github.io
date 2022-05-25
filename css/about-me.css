@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
+img, img:hover, img:focus, img:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .page{
   background-color: pink;
 
@@ -30,6 +35,9 @@
   background-color: blue;
 
   width: 40%;
+  min-width: 350px;
+  max-width: 500px;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -40,16 +48,39 @@
 .about-me-pic{
   border: 4px solid rgb(92, 92, 92);
   width:90%;
+  border-radius: 20px;
+
+  margin: 10px;
 }
 
 .bio-and-title{
   background-color: purple;
 
   width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bio-title{
+  background-color: rgb(140, 226, 190);
+
+  width: 100%;
+  height: 20%;
+
+  min-height:60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title{
   font-family: 'Dancing Script', cursive;
+  font-size: 350%;
 }
 
 .edu-doc-fact{
@@ -83,139 +114,4 @@
 
   width: 50%;
   height: 40%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.home-header {
-  padding-bottom: max(8px);
-
-  width: 100%;
-  max-height: 500px;
-  min-height: 200px;
-  height: 100%;
-
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-
-}
-
-.profile-pic{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: max(33%, 265px);
-}
-
-.picture-case{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  max-height: 325px;
-
-  height: 90%;
-  width: 100%;
-
-}
-
-.picture{
-  pointer-events: none;
-
-  border-radius: 50%;
-  border: 4px solid rgb(92, 92, 92);
-
-  width: 90%;
-  max-width: 325px;
-  max-height: 325px;
-}
-
-.name-and-title{
-  width: 60%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-}
-
-.name{
-  pointer-events: none;
-
-  height: 80%;
-
-  min-width: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.first{
-  height: 42%;
-  margin-left: -20%;
-}
-
-.last{
-  height: 58%;
-  margin-right: -20%;
-}
-
-.title{
-  height: 20%;
-  width: 75vw;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.title-text{
-  font-family: 'Roboto Flex', sans-serif;
-  font-size: min(max(19px,2vw), 150%);
-  color: rgb(92, 92, 92);
-}
-
-.bio {
-  margin-top: 10px;
-
-  height: auto;
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-
-}
-.bio-frame {
-  width: max(75%, 300px);
-  font-family: 'Roboto Flex', sans-serif;
-  font-size: 16px;
-  text-align: justify;
 }
