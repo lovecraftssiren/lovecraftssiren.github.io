@@ -11,7 +11,7 @@ img, img:hover, img:focus, img:active {
   background-color: pink;
 
   width: 100%;
-  height: 500px;
+  min-height: 500px;
 
   display: flex;
   flex-wrap: wrap;
@@ -57,6 +57,7 @@ img, img:hover, img:focus, img:active {
   background-color: purple;
 
   width: 60%;
+  min-width: 350px;
 
   display: flex;
   flex-direction: column;
@@ -83,10 +84,21 @@ img, img:hover, img:focus, img:active {
   font-size: 350%;
 }
 
+.bio{
+  margin: 10px;
+
+}
+
+.paragraph-text{
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 16px;
+}
+
+
 .edu-doc-fact{
   background-color: pink;
 
-  width: 100%;
+  width: 90%;
 
   display: flex;
   flex-wrap: wrap;
@@ -102,15 +114,33 @@ img, img:hover, img:focus, img:active {
   height: 40%;
 }
 
-.fun-facts-and-title{
-  background-color: red;
+.sub-title-container{
+  background-color: rgb(140, 226, 190);
 
-  width: 50%;
-  height: 80%;
+  width: 100%;
+
+  min-height:60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-title{
+  font-family: 'Dancing Script', cursive;
+  font-size: 250%;
 }
 
 .documents-and-title{
   background-color: grey;
+
+  width: 50%;
+  height: 40%;
+}
+
+.fun-facts-and-title{
+  background-color: red;
 
   width: 50%;
   height: 40%;
