@@ -7,6 +7,11 @@ img, img:hover, img:focus, img:active {
     color: inherit;
 }
 
+li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
 .page{
   background-color: pink;
 
@@ -21,7 +26,7 @@ img, img:hover, img:focus, img:active {
 }
 
 .pic-and-bio{
-  background-color: green;
+  /* background-color: green; */
 
   width: 100%;
 
@@ -32,11 +37,13 @@ img, img:hover, img:focus, img:active {
 }
 
 .pic{
-  background-color: blue;
+  /* background-color: blue; */
 
   width: 40%;
   min-width: 350px;
   max-width: 500px;
+
+  min-height: 250px;
 
   display: flex;
   flex-direction: row;
@@ -54,7 +61,7 @@ img, img:hover, img:focus, img:active {
 }
 
 .bio-and-title{
-  background-color: purple;
+  /* background-color: purple; */
 
   width: 60%;
   min-width: 350px;
@@ -66,7 +73,7 @@ img, img:hover, img:focus, img:active {
 }
 
 .bio-title{
-  background-color: rgb(140, 226, 190);
+  /* background-color: rgb(140, 226, 190); */
 
   width: 100%;
   height: 20%;
@@ -110,14 +117,15 @@ img, img:hover, img:focus, img:active {
 .education-and-title{
   background-color: yellow;
 
-  width: 50%;
-  height: 40%;
+  min-width: 350px;
+
+  width: 40%;
 }
 
 .sub-title-container{
   background-color: rgb(140, 226, 190);
 
-  width: 100%;
+  width: 100%
 
   min-height:60px;
 
@@ -135,13 +143,13 @@ img, img:hover, img:focus, img:active {
 .documents-and-title{
   background-color: grey;
 
-  width: 50%;
-  height: 40%;
+  width: 40%;
+  min-width: 350px;
 }
 
 .fun-facts-and-title{
   background-color: red;
 
-  width: 50%;
-  height: 40%;
+  width: 40%;
+  min-width: 350px;
 }
