@@ -5,15 +5,27 @@
 img, img:hover, img:focus, img:active {
     text-decoration: none;
     color: inherit;
+    pointer-events: none;
 }
 
 li {
+  /* background-color: pink; */
+
   list-style-type: none;
-  margin: 10px 0;
+
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .page{
-  background-color: pink;
+  /* background-color: pink; */
 
   width: 100%;
   min-height: 500px;
@@ -64,7 +76,6 @@ li {
   /* background-color: purple; */
 
   width: 60%;
-  min-width: 350px;
 
   display: flex;
   flex-direction: column;
@@ -77,7 +88,7 @@ li {
 
   width: 100%;
   height: 20%;
-
+  min-width: 350px;
   min-height:60px;
 
   display: flex;
@@ -92,6 +103,7 @@ li {
 }
 
 .bio{
+  min-width: 350px;
   margin: 10px;
 
 }
@@ -99,33 +111,47 @@ li {
 .paragraph-text{
   font-family: 'Roboto Flex', sans-serif;
   font-size: 16px;
+  text-align: left;
+
 }
 
 
 .edu-doc-fact{
-  background-color: pink;
 
   width: 90%;
 
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .education-and-title{
-  background-color: yellow;
 
+  max-width: 45%;
   min-width: 350px;
+}
 
-  width: 40%;
+.documents-and-title{
+  background-color: grey;
+
+  max-width: 45%;
+  min-width: 350px;
+}
+
+.fun-facts-and-title{
+  background-color: red;
+
+
+  max-width: 45%;
+  min-width: 350px;
 }
 
 .sub-title-container{
-  background-color: rgb(140, 226, 190);
+  /* background-color: rgb(140, 226, 190); */
 
-  width: 100%
+  width: 100%;
 
   min-height:60px;
 
@@ -140,16 +166,17 @@ li {
   font-size: 250%;
 }
 
-.documents-and-title{
-  background-color: grey;
-
-  width: 40%;
-  min-width: 350px;
+.li-icon-box{
+  /* background-color: rgb(207, 254, 74); */
+  height: 100%;
+  margin-right: 10px;
 }
 
-.fun-facts-and-title{
-  background-color: red;
+.li-icon{
+  width: 30px;
+  height: 100%;
 
-  width: 40%;
-  min-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
