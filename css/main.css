@@ -16,8 +16,6 @@ body {
 
   display: flex;
   flex-wrap: nowrap;
-
-
 }
 
 a, a:hover, a:focus, a:active {

@@ -5,11 +5,19 @@
 img, img:hover, img:focus, img:active {
     text-decoration: none;
     color: inherit;
+    pointer-events: none;
+}
+
+li {
+  margin: 15px 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .page{
-  background-color: pink;
-
   width: 100%;
   min-height: 500px;
 
@@ -21,8 +29,6 @@ img, img:hover, img:focus, img:active {
 }
 
 .pic-and-bio{
-  background-color: green;
-
   width: 100%;
 
   display: flex;
@@ -32,11 +38,11 @@ img, img:hover, img:focus, img:active {
 }
 
 .pic{
-  background-color: blue;
-
   width: 40%;
   min-width: 350px;
   max-width: 500px;
+
+  min-height: 250px;
 
   display: flex;
   flex-direction: row;
@@ -54,10 +60,7 @@ img, img:hover, img:focus, img:active {
 }
 
 .bio-and-title{
-  background-color: purple;
-
   width: 60%;
-  min-width: 350px;
 
   display: flex;
   flex-direction: column;
@@ -66,11 +69,9 @@ img, img:hover, img:focus, img:active {
 }
 
 .bio-title{
-  background-color: rgb(140, 226, 190);
-
   width: 100%;
   height: 20%;
-
+  min-width: 350px;
   min-height:60px;
 
   display: flex;
@@ -85,40 +86,48 @@ img, img:hover, img:focus, img:active {
 }
 
 .bio{
+  min-width: 350px;
+  max-width: 95%;
   margin: 10px;
-
 }
 
 .paragraph-text{
   font-family: 'Roboto Flex', sans-serif;
   font-size: 16px;
+  text-align: left;
 }
 
-
 .edu-doc-fact{
-  background-color: pink;
-
   width: 90%;
 
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .education-and-title{
-  background-color: yellow;
+  max-width: 40%;
+  min-width: 350px;
+}
 
-  width: 50%;
-  height: 40%;
+.documents-and-title{
+  max-width: 40%;
+  min-width: 350px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fun-facts-and-title{
+  max-width: 40%;
+  min-width: 350px;
 }
 
 .sub-title-container{
-  background-color: rgb(140, 226, 190);
-
-  width: 100%;
-
   min-height:60px;
 
   display: flex;
@@ -132,16 +141,49 @@ img, img:hover, img:focus, img:active {
   font-size: 250%;
 }
 
-.documents-and-title{
-  background-color: grey;
-
-  width: 50%;
-  height: 40%;
+.li-icon-box{
+  height: 100%;
+  margin-right: 10px;
 }
 
-.fun-facts-and-title{
-  background-color: red;
+.li-icon{
+  width: 30px;
+  height: 100%;
 
-  width: 50%;
-  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-hover{
+  width: 30px;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform .2s;
+}
+
+.icon-hover:hover {
+  transform: scale(1.4);
+}
+
+.item-no-bullet-point{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hyperlink{
+  text-decoration: underline;
+  color: inherit;
+}
+
+.hyperlink:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(232, 166, 225);
+  color: rgb(232, 166, 225);
 }
