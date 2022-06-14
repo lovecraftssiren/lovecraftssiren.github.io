@@ -9,14 +9,7 @@ img, img:hover, img:focus, img:active {
 }
 
 li {
-  /* background-color: pink; */
-
-  list-style-type: none;
-
   margin: 15px 0px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 ul {
@@ -25,8 +18,6 @@ ul {
 }
 
 .page{
-  /* background-color: pink; */
-
   width: 100%;
   min-height: 500px;
 
@@ -38,8 +29,6 @@ ul {
 }
 
 .pic-and-bio{
-  /* background-color: green; */
-
   width: 100%;
 
   display: flex;
@@ -49,8 +38,6 @@ ul {
 }
 
 .pic{
-  /* background-color: blue; */
-
   width: 40%;
   min-width: 350px;
   max-width: 500px;
@@ -73,8 +60,6 @@ ul {
 }
 
 .bio-and-title{
-  /* background-color: purple; */
-
   width: 60%;
 
   display: flex;
@@ -84,8 +69,6 @@ ul {
 }
 
 .bio-title{
-  /* background-color: rgb(140, 226, 190); */
-
   width: 100%;
   height: 20%;
   min-width: 350px;
@@ -104,20 +87,17 @@ ul {
 
 .bio{
   min-width: 350px;
+  max-width: 95%;
   margin: 10px;
-
 }
 
 .paragraph-text{
   font-family: 'Roboto Flex', sans-serif;
   font-size: 16px;
   text-align: left;
-
 }
 
-
 .edu-doc-fact{
-
   width: 90%;
 
   display: flex;
@@ -128,31 +108,26 @@ ul {
 }
 
 .education-and-title{
-
-  max-width: 45%;
+  max-width: 40%;
   min-width: 350px;
 }
 
 .documents-and-title{
-  background-color: grey;
-
-  max-width: 45%;
+  max-width: 40%;
   min-width: 350px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .fun-facts-and-title{
-  background-color: red;
-
-
-  max-width: 45%;
+  max-width: 40%;
   min-width: 350px;
 }
 
 .sub-title-container{
-  /* background-color: rgb(140, 226, 190); */
-
-  width: 100%;
-
   min-height:60px;
 
   display: flex;
@@ -167,7 +142,6 @@ ul {
 }
 
 .li-icon-box{
-  /* background-color: rgb(207, 254, 74); */
   height: 100%;
   margin-right: 10px;
 }
@@ -179,4 +153,37 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.icon-hover{
+  width: 30px;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform .2s;
+}
+
+.icon-hover:hover {
+  transform: scale(1.4);
+}
+
+.item-no-bullet-point{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hyperlink{
+  text-decoration: underline;
+  color: inherit;
+}
+
+.hyperlink:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(232, 166, 225);
+  color: rgb(232, 166, 225);
 }

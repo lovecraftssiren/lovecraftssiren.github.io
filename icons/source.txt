@@ -11,3 +11,5 @@ Github: https://github.com/logos
 Rocket: https://www.flaticon.com/packs/education-elements-4
 Pen: https://www.flaticon.com/packs/education-elements-4
 Graduation Hat: https://www.flaticon.com/packs/education-elements-4
+
+CV: https://www.flaticon.com/free-icon/cv_3135686?related_id=3135686
