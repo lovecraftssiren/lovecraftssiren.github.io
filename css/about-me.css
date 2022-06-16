@@ -2,12 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
-img, img:hover, img:focus, img:active {
-    text-decoration: none;
-    color: inherit;
-    pointer-events: none;
-}
-
 li {
   margin: 15px 0px;
 }
@@ -57,6 +51,8 @@ ul {
   border-radius: 20px;
 
   margin: 10px;
+
+  pointer-events: none;
 }
 
 .bio-and-title{
@@ -147,6 +143,8 @@ ul {
 }
 
 .li-icon{
+  pointer-events: none;
+
   width: 30px;
   height: 100%;
 
@@ -167,7 +165,7 @@ ul {
 }
 
 .icon-hover:hover {
-  transform: scale(1.4);
+  transform: scale(1.6);
 }
 
 .item-no-bullet-point{
