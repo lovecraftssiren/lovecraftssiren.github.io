@@ -58,8 +58,8 @@
 
 .project-body{
   /* background-color: rgb(185, 255, 236); */
-  width: 70%;
-  min-width: 300px;
+  min-width: 70%;
+  max-width: 75%;
 
 }
 
@@ -75,13 +75,18 @@
 
   margin: 15px 0px;
 
+  text-align: center;
+
 }
 
 .project-description{
   /* background-color: rgb(230, 223, 255); */
+  width: 100%;
 
   font-family: 'Roboto Flex', sans-serif;
   font-size: 95%;
+
+  text-align: left;
 
 }
 
