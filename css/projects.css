@@ -1,0 +1,109 @@
+/** Fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.projects-page{
+
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 25px 0px;
+}
+
+.projects{
+
+  width: 85%;
+
+}
+
+.one-project{
+  background-color: rgba(74, 155, 180, 0.15);
+
+  border:5px solid rgb(96, 96, 96);
+  border-radius: 50px;
+
+  width: 100%-20px;
+  min-height: 250px;
+
+  margin: 20px 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project-image{
+  /* background-color: rgb(218, 255, 185); */
+  width: 20%;
+  min-width: 200px;
+  min-height: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50px;
+
+  margin: 10px 0px;
+
+}
+
+.project-body{
+  /* background-color: rgb(185, 255, 236); */
+  width: 70%;
+  min-width: 350px;
+
+}
+
+.project-title{
+  /* background-color: rgb(185, 228, 255); */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 250%;
+
+  margin: 15px 0px;
+
+}
+
+.project-description{
+  /* background-color: rgb(230, 223, 255); */
+
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 95%;
+
+}
+
+.sigcse21-pic{
+  max-height: 200px;
+
+  border-radius: 50%;
+}
+
+.paragraph-text{
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: min(4vw,95%);
+}
+
+.hyperlink, .hyperlink:focus, .hyperlink:active{
+  color: rgb(0, 26, 255);
+  text-decoration-color: rgb(0, 26, 255);
+  text-decoration: underline;
+}
+
+.hyperlink:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(200, 96, 189);
+  color: rgb(200, 96, 189);
+}

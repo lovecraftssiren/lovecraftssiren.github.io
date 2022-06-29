@@ -13,3 +13,6 @@ Pen: https://www.flaticon.com/packs/education-elements-4
 Graduation Hat: https://www.flaticon.com/packs/education-elements-4
 
 CV: https://www.flaticon.com/free-icon/cv_3135686?related_id=3135686
+
+Fonts are all from Google Fonts, with individual font links found
+in their corresponding css file.

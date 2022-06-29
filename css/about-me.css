@@ -15,6 +15,8 @@ ul {
   width: 100%;
   min-height: 500px;
 
+  padding-top: 10px;
+
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -94,6 +96,8 @@ ul {
 }
 
 .edu-doc-fact{
+  padding-top: 20px;
+
   width: 90%;
 
   display: flex;
@@ -175,7 +179,7 @@ ul {
   align-items: center;
 }
 
-.hyperlink{
+.hyperlink, .hyperlink:focus, .hyperlink:active{
   text-decoration: underline;
   color: inherit;
 }
