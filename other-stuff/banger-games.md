@@ -1,5 +1,6 @@
-```A Way Out
+A Way Out
 AI: The Somnium Files
+AI: nirvanA Initiative
 Among Us
 Alice: Madness Returns
 Animal Crossing: New Horizons
@@ -33,6 +34,7 @@ Dead by Daylight
 Death Stranding
 Detroit Become Human
 Disco Elysium
+Disney Dreamlight Valley
 Doki Doki Literature Club
 Don't Starve
 Donkey Kong Country
@@ -46,10 +48,12 @@ Enter the Gungeon
 Fallout 4
 Fallout: New Vegas
 Final Fantasy VII
+Fire Emblem: Three Houses
 Firewatch
 Gnosia
 Gone Home
 Grand Theft Auto V
+Griftlands
 Hades
 Horizon Zero Dawn
 Inscryption
@@ -58,6 +62,7 @@ Job Simulator
 Jazzpunk
 Kingdom Hearts 2
 Kingdom Hearts 358/2
+League of Legends
 The Legend of Zelda: Breath of the Wild
 The Legend of Zelda: Ocarina of Time
 Life Is Strange
@@ -72,17 +77,19 @@ My Time At Portia
 My Time At Sandrock
 NieR: Automata
 Night Call
+Oneshot
 Orwell
 Orwell: Ignorance is Strength
 The Outer Worlds
+Overwatch
 Oxenfree
 Papers, Please
-Payday
+Payday 2
 Persona 3 FES
 Persona 4 Golden
-Persona 5
 Persona 5: Royal
 Phoenix Wright: Ace Attorney Trilogy
+Plants vs. Zombies
 Pokemon Emerald
 Portal
 Portal 2
@@ -92,16 +99,20 @@ Sid Meier's Civilization V
 The Sims 2
 Slay The Spire
 Slime Rancher
+Slime Rancher 2
 Spelunky
 Spiritfarer
 The Stanley Parable
 Stardew Valley
 Starbound
+Strange Horticulture
+Stray
 Super Mario Galaxy
 Super Mario Galaxy 2
 Super Paper Mario
 Tangle Tower
 To the Moon
+Unpacking
 Undertale
 Vacation Simulator
 Vampire: The Masquerade - Bloodlines
@@ -113,4 +124,4 @@ We Were Here Together
 We Were Here Forever
 What Remains of Edith Finch
 The Witcher 3: Wild Hunt
-Zero Escape: 999```
+Zero Escape: 999
