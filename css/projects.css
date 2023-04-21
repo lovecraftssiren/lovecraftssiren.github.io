@@ -24,9 +24,9 @@
 }
 
 .one-project{
-  background-color: rgba(74, 155, 180, 0.15);
+  background-color: rgba(54, 150, 179, 0.20);
 
-  border:5px solid rgb(96, 96, 96);
+  border:5px solid rgba(31, 90, 108, 0.8);
   border-radius: 50px;
 
   width: 100%-20px;
@@ -36,7 +36,7 @@
 
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
@@ -56,8 +56,19 @@
 
 }
 
+.content-image{
+  /* background-color: rgb(185, 255, 236); */
+
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+
+}
+
 .project-body{
   /* background-color: rgb(185, 255, 236); */
+
+
   min-width: 70%;
   max-width: 75%;
 
@@ -81,12 +92,20 @@
 
 .project-description{
   /* background-color: rgb(230, 223, 255); */
-  width: 100%;
+  width: 90%;
 
   font-family: 'Roboto Flex', sans-serif;
   font-size: 95%;
 
-  text-align: left;
+  text-align: justify;
+
+}
+
+.project-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
 
 }
 
@@ -94,6 +113,34 @@
   max-height: 200px;
 
   border-radius: 50%;
+
+  border:5px solid rgba(54, 150, 179, 0.50);
+}
+
+.sigcse23-pic{
+  max-height: 200px;
+
+  border-radius: 50%;
+
+  border:5px solid rgba(237,28,36, 0.5);
+}
+
+.youtube-preview{
+  display: block;
+  
+  width: auto;
+  height: auto;
+
+  max-height: 250px;
+  max-width: 100%;
+
+  margin: 0px 0px 15px 20px;
+
+  transition: transform .1s;
+}
+
+.youtube-preview:hover {
+  transform: scale(1.05);
 }
 
 .paragraph-text{
